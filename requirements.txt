@@ -1,0 +1,8 @@
+numpy
+matplotlib
+opencv-python
+pybullet
+torch
+easyocr
+scipy
+kornia
