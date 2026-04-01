@@ -1,6 +1,6 @@
 # Robust Semantic-Aware Robotic Canvas Reconstruction
 
-This repository contains the codebase for the **Robust Semantic-Aware Robotic Canvas Reconstruction** project. The system is designed to act as a "superhuman" robotic drawing pipeline that transcends traditional "edge tracing" algorithms by understanding 3D volumes, cleaning corrupted data (low light and motion blur), and intelligently repairing linguistic text. 
+This repository contains the codebase for the **Robust Semantic-Aware Robotic Canvas Reconstruction** project. The system is designed to act as a robotic drawing pipeline that transcends traditional "edge tracing" algorithms by understanding 3D volumes, cleaning corrupted data (low light and motion blur), and intelligently repairing linguistic text. 
 
 ## Project Architecture (Tri-Stream System)
 
