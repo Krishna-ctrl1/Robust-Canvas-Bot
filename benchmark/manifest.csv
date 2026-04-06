@@ -1,0 +1,157 @@
+image_id,content_type,content_seed,degradation_type,degradation_label,degradation_params,original_path,degraded_path
+0,scene,0,dark,dark_severe,{'factor': 0.1},originals\000_scene_00_clean.png,degraded\000_scene_00_dark_severe.png
+1,scene,0,dark,dark_heavy,{'factor': 0.15},originals\000_scene_00_clean.png,degraded\001_scene_00_dark_heavy.png
+2,scene,0,dark,dark_moderate,{'factor': 0.25},originals\000_scene_00_clean.png,degraded\002_scene_00_dark_moderate.png
+3,scene,0,dark,dark_mild,{'factor': 0.4},originals\000_scene_00_clean.png,degraded\003_scene_00_dark_mild.png
+4,scene,0,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\000_scene_00_clean.png,degraded\004_scene_00_mblur_severe_h.png
+5,scene,0,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\000_scene_00_clean.png,degraded\005_scene_00_mblur_moderate_h.png
+6,scene,0,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\000_scene_00_clean.png,degraded\006_scene_00_mblur_moderate_d.png
+7,scene,0,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\000_scene_00_clean.png,degraded\007_scene_00_mblur_mild_v.png
+8,scene,0,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\000_scene_00_clean.png,degraded\008_scene_00_gblur_heavy.png
+9,scene,0,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\000_scene_00_clean.png,degraded\009_scene_00_gblur_mild.png
+10,scene,0,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\000_scene_00_clean.png,degraded\010_scene_00_combined_dark_blur.png
+11,scene,0,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\000_scene_00_clean.png,degraded\011_scene_00_combined_moderate.png
+12,scene,1,dark,dark_severe,{'factor': 0.1},originals\012_scene_01_clean.png,degraded\012_scene_01_dark_severe.png
+13,scene,1,dark,dark_heavy,{'factor': 0.15},originals\012_scene_01_clean.png,degraded\013_scene_01_dark_heavy.png
+14,scene,1,dark,dark_moderate,{'factor': 0.25},originals\012_scene_01_clean.png,degraded\014_scene_01_dark_moderate.png
+15,scene,1,dark,dark_mild,{'factor': 0.4},originals\012_scene_01_clean.png,degraded\015_scene_01_dark_mild.png
+16,scene,1,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\012_scene_01_clean.png,degraded\016_scene_01_mblur_severe_h.png
+17,scene,1,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\012_scene_01_clean.png,degraded\017_scene_01_mblur_moderate_h.png
+18,scene,1,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\012_scene_01_clean.png,degraded\018_scene_01_mblur_moderate_d.png
+19,scene,1,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\012_scene_01_clean.png,degraded\019_scene_01_mblur_mild_v.png
+20,scene,1,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\012_scene_01_clean.png,degraded\020_scene_01_gblur_heavy.png
+21,scene,1,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\012_scene_01_clean.png,degraded\021_scene_01_gblur_mild.png
+22,scene,1,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\012_scene_01_clean.png,degraded\022_scene_01_combined_dark_blur.png
+23,scene,1,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\012_scene_01_clean.png,degraded\023_scene_01_combined_moderate.png
+24,scene,2,dark,dark_severe,{'factor': 0.1},originals\024_scene_02_clean.png,degraded\024_scene_02_dark_severe.png
+25,scene,2,dark,dark_heavy,{'factor': 0.15},originals\024_scene_02_clean.png,degraded\025_scene_02_dark_heavy.png
+26,scene,2,dark,dark_moderate,{'factor': 0.25},originals\024_scene_02_clean.png,degraded\026_scene_02_dark_moderate.png
+27,scene,2,dark,dark_mild,{'factor': 0.4},originals\024_scene_02_clean.png,degraded\027_scene_02_dark_mild.png
+28,scene,2,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\024_scene_02_clean.png,degraded\028_scene_02_mblur_severe_h.png
+29,scene,2,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\024_scene_02_clean.png,degraded\029_scene_02_mblur_moderate_h.png
+30,scene,2,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\024_scene_02_clean.png,degraded\030_scene_02_mblur_moderate_d.png
+31,scene,2,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\024_scene_02_clean.png,degraded\031_scene_02_mblur_mild_v.png
+32,scene,2,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\024_scene_02_clean.png,degraded\032_scene_02_gblur_heavy.png
+33,scene,2,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\024_scene_02_clean.png,degraded\033_scene_02_gblur_mild.png
+34,scene,2,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\024_scene_02_clean.png,degraded\034_scene_02_combined_dark_blur.png
+35,scene,2,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\024_scene_02_clean.png,degraded\035_scene_02_combined_moderate.png
+36,scene,3,dark,dark_severe,{'factor': 0.1},originals\036_scene_03_clean.png,degraded\036_scene_03_dark_severe.png
+37,scene,3,dark,dark_heavy,{'factor': 0.15},originals\036_scene_03_clean.png,degraded\037_scene_03_dark_heavy.png
+38,scene,3,dark,dark_moderate,{'factor': 0.25},originals\036_scene_03_clean.png,degraded\038_scene_03_dark_moderate.png
+39,scene,3,dark,dark_mild,{'factor': 0.4},originals\036_scene_03_clean.png,degraded\039_scene_03_dark_mild.png
+40,scene,3,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\036_scene_03_clean.png,degraded\040_scene_03_mblur_severe_h.png
+41,scene,3,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\036_scene_03_clean.png,degraded\041_scene_03_mblur_moderate_h.png
+42,scene,3,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\036_scene_03_clean.png,degraded\042_scene_03_mblur_moderate_d.png
+43,scene,3,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\036_scene_03_clean.png,degraded\043_scene_03_mblur_mild_v.png
+44,scene,3,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\036_scene_03_clean.png,degraded\044_scene_03_gblur_heavy.png
+45,scene,3,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\036_scene_03_clean.png,degraded\045_scene_03_gblur_mild.png
+46,scene,3,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\036_scene_03_clean.png,degraded\046_scene_03_combined_dark_blur.png
+47,scene,3,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\036_scene_03_clean.png,degraded\047_scene_03_combined_moderate.png
+48,scene,4,dark,dark_severe,{'factor': 0.1},originals\048_scene_04_clean.png,degraded\048_scene_04_dark_severe.png
+49,scene,4,dark,dark_heavy,{'factor': 0.15},originals\048_scene_04_clean.png,degraded\049_scene_04_dark_heavy.png
+50,scene,4,dark,dark_moderate,{'factor': 0.25},originals\048_scene_04_clean.png,degraded\050_scene_04_dark_moderate.png
+51,scene,4,dark,dark_mild,{'factor': 0.4},originals\048_scene_04_clean.png,degraded\051_scene_04_dark_mild.png
+52,scene,4,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\048_scene_04_clean.png,degraded\052_scene_04_mblur_severe_h.png
+53,scene,4,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\048_scene_04_clean.png,degraded\053_scene_04_mblur_moderate_h.png
+54,scene,4,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\048_scene_04_clean.png,degraded\054_scene_04_mblur_moderate_d.png
+55,scene,4,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\048_scene_04_clean.png,degraded\055_scene_04_mblur_mild_v.png
+56,scene,4,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\048_scene_04_clean.png,degraded\056_scene_04_gblur_heavy.png
+57,scene,4,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\048_scene_04_clean.png,degraded\057_scene_04_gblur_mild.png
+58,scene,4,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\048_scene_04_clean.png,degraded\058_scene_04_combined_dark_blur.png
+59,scene,4,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\048_scene_04_clean.png,degraded\059_scene_04_combined_moderate.png
+60,text,1000,dark,dark_severe,{'factor': 0.1},originals\060_text_00_clean.png,degraded\060_text_00_dark_severe.png
+61,text,1000,dark,dark_heavy,{'factor': 0.15},originals\060_text_00_clean.png,degraded\061_text_00_dark_heavy.png
+62,text,1000,dark,dark_moderate,{'factor': 0.25},originals\060_text_00_clean.png,degraded\062_text_00_dark_moderate.png
+63,text,1000,dark,dark_mild,{'factor': 0.4},originals\060_text_00_clean.png,degraded\063_text_00_dark_mild.png
+64,text,1000,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\060_text_00_clean.png,degraded\064_text_00_mblur_severe_h.png
+65,text,1000,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\060_text_00_clean.png,degraded\065_text_00_mblur_moderate_h.png
+66,text,1000,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\060_text_00_clean.png,degraded\066_text_00_mblur_moderate_d.png
+67,text,1000,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\060_text_00_clean.png,degraded\067_text_00_mblur_mild_v.png
+68,text,1000,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\060_text_00_clean.png,degraded\068_text_00_gblur_heavy.png
+69,text,1000,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\060_text_00_clean.png,degraded\069_text_00_gblur_mild.png
+70,text,1000,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\060_text_00_clean.png,degraded\070_text_00_combined_dark_blur.png
+71,text,1000,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\060_text_00_clean.png,degraded\071_text_00_combined_moderate.png
+72,text,1001,dark,dark_severe,{'factor': 0.1},originals\072_text_01_clean.png,degraded\072_text_01_dark_severe.png
+73,text,1001,dark,dark_heavy,{'factor': 0.15},originals\072_text_01_clean.png,degraded\073_text_01_dark_heavy.png
+74,text,1001,dark,dark_moderate,{'factor': 0.25},originals\072_text_01_clean.png,degraded\074_text_01_dark_moderate.png
+75,text,1001,dark,dark_mild,{'factor': 0.4},originals\072_text_01_clean.png,degraded\075_text_01_dark_mild.png
+76,text,1001,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\072_text_01_clean.png,degraded\076_text_01_mblur_severe_h.png
+77,text,1001,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\072_text_01_clean.png,degraded\077_text_01_mblur_moderate_h.png
+78,text,1001,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\072_text_01_clean.png,degraded\078_text_01_mblur_moderate_d.png
+79,text,1001,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\072_text_01_clean.png,degraded\079_text_01_mblur_mild_v.png
+80,text,1001,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\072_text_01_clean.png,degraded\080_text_01_gblur_heavy.png
+81,text,1001,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\072_text_01_clean.png,degraded\081_text_01_gblur_mild.png
+82,text,1001,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\072_text_01_clean.png,degraded\082_text_01_combined_dark_blur.png
+83,text,1001,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\072_text_01_clean.png,degraded\083_text_01_combined_moderate.png
+84,text,1002,dark,dark_severe,{'factor': 0.1},originals\084_text_02_clean.png,degraded\084_text_02_dark_severe.png
+85,text,1002,dark,dark_heavy,{'factor': 0.15},originals\084_text_02_clean.png,degraded\085_text_02_dark_heavy.png
+86,text,1002,dark,dark_moderate,{'factor': 0.25},originals\084_text_02_clean.png,degraded\086_text_02_dark_moderate.png
+87,text,1002,dark,dark_mild,{'factor': 0.4},originals\084_text_02_clean.png,degraded\087_text_02_dark_mild.png
+88,text,1002,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\084_text_02_clean.png,degraded\088_text_02_mblur_severe_h.png
+89,text,1002,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\084_text_02_clean.png,degraded\089_text_02_mblur_moderate_h.png
+90,text,1002,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\084_text_02_clean.png,degraded\090_text_02_mblur_moderate_d.png
+91,text,1002,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\084_text_02_clean.png,degraded\091_text_02_mblur_mild_v.png
+92,text,1002,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\084_text_02_clean.png,degraded\092_text_02_gblur_heavy.png
+93,text,1002,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\084_text_02_clean.png,degraded\093_text_02_gblur_mild.png
+94,text,1002,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\084_text_02_clean.png,degraded\094_text_02_combined_dark_blur.png
+95,text,1002,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\084_text_02_clean.png,degraded\095_text_02_combined_moderate.png
+96,text,1003,dark,dark_severe,{'factor': 0.1},originals\096_text_03_clean.png,degraded\096_text_03_dark_severe.png
+97,text,1003,dark,dark_heavy,{'factor': 0.15},originals\096_text_03_clean.png,degraded\097_text_03_dark_heavy.png
+98,text,1003,dark,dark_moderate,{'factor': 0.25},originals\096_text_03_clean.png,degraded\098_text_03_dark_moderate.png
+99,text,1003,dark,dark_mild,{'factor': 0.4},originals\096_text_03_clean.png,degraded\099_text_03_dark_mild.png
+100,text,1003,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\096_text_03_clean.png,degraded\100_text_03_mblur_severe_h.png
+101,text,1003,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\096_text_03_clean.png,degraded\101_text_03_mblur_moderate_h.png
+102,text,1003,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\096_text_03_clean.png,degraded\102_text_03_mblur_moderate_d.png
+103,text,1003,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\096_text_03_clean.png,degraded\103_text_03_mblur_mild_v.png
+104,text,1003,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\096_text_03_clean.png,degraded\104_text_03_gblur_heavy.png
+105,text,1003,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\096_text_03_clean.png,degraded\105_text_03_gblur_mild.png
+106,text,1003,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\096_text_03_clean.png,degraded\106_text_03_combined_dark_blur.png
+107,text,1003,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\096_text_03_clean.png,degraded\107_text_03_combined_moderate.png
+108,text,1004,dark,dark_severe,{'factor': 0.1},originals\108_text_04_clean.png,degraded\108_text_04_dark_severe.png
+109,text,1004,dark,dark_heavy,{'factor': 0.15},originals\108_text_04_clean.png,degraded\109_text_04_dark_heavy.png
+110,text,1004,dark,dark_moderate,{'factor': 0.25},originals\108_text_04_clean.png,degraded\110_text_04_dark_moderate.png
+111,text,1004,dark,dark_mild,{'factor': 0.4},originals\108_text_04_clean.png,degraded\111_text_04_dark_mild.png
+112,text,1004,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\108_text_04_clean.png,degraded\112_text_04_mblur_severe_h.png
+113,text,1004,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\108_text_04_clean.png,degraded\113_text_04_mblur_moderate_h.png
+114,text,1004,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\108_text_04_clean.png,degraded\114_text_04_mblur_moderate_d.png
+115,text,1004,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\108_text_04_clean.png,degraded\115_text_04_mblur_mild_v.png
+116,text,1004,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\108_text_04_clean.png,degraded\116_text_04_gblur_heavy.png
+117,text,1004,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\108_text_04_clean.png,degraded\117_text_04_gblur_mild.png
+118,text,1004,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\108_text_04_clean.png,degraded\118_text_04_combined_dark_blur.png
+119,text,1004,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\108_text_04_clean.png,degraded\119_text_04_combined_moderate.png
+120,mixed,2000,dark,dark_severe,{'factor': 0.1},originals\120_mixed_00_clean.png,degraded\120_mixed_00_dark_severe.png
+121,mixed,2000,dark,dark_heavy,{'factor': 0.15},originals\120_mixed_00_clean.png,degraded\121_mixed_00_dark_heavy.png
+122,mixed,2000,dark,dark_moderate,{'factor': 0.25},originals\120_mixed_00_clean.png,degraded\122_mixed_00_dark_moderate.png
+123,mixed,2000,dark,dark_mild,{'factor': 0.4},originals\120_mixed_00_clean.png,degraded\123_mixed_00_dark_mild.png
+124,mixed,2000,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\120_mixed_00_clean.png,degraded\124_mixed_00_mblur_severe_h.png
+125,mixed,2000,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\120_mixed_00_clean.png,degraded\125_mixed_00_mblur_moderate_h.png
+126,mixed,2000,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\120_mixed_00_clean.png,degraded\126_mixed_00_mblur_moderate_d.png
+127,mixed,2000,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\120_mixed_00_clean.png,degraded\127_mixed_00_mblur_mild_v.png
+128,mixed,2000,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\120_mixed_00_clean.png,degraded\128_mixed_00_gblur_heavy.png
+129,mixed,2000,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\120_mixed_00_clean.png,degraded\129_mixed_00_gblur_mild.png
+130,mixed,2000,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\120_mixed_00_clean.png,degraded\130_mixed_00_combined_dark_blur.png
+131,mixed,2000,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\120_mixed_00_clean.png,degraded\131_mixed_00_combined_moderate.png
+132,mixed,2001,dark,dark_severe,{'factor': 0.1},originals\132_mixed_01_clean.png,degraded\132_mixed_01_dark_severe.png
+133,mixed,2001,dark,dark_heavy,{'factor': 0.15},originals\132_mixed_01_clean.png,degraded\133_mixed_01_dark_heavy.png
+134,mixed,2001,dark,dark_moderate,{'factor': 0.25},originals\132_mixed_01_clean.png,degraded\134_mixed_01_dark_moderate.png
+135,mixed,2001,dark,dark_mild,{'factor': 0.4},originals\132_mixed_01_clean.png,degraded\135_mixed_01_dark_mild.png
+136,mixed,2001,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\132_mixed_01_clean.png,degraded\136_mixed_01_mblur_severe_h.png
+137,mixed,2001,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\132_mixed_01_clean.png,degraded\137_mixed_01_mblur_moderate_h.png
+138,mixed,2001,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\132_mixed_01_clean.png,degraded\138_mixed_01_mblur_moderate_d.png
+139,mixed,2001,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\132_mixed_01_clean.png,degraded\139_mixed_01_mblur_mild_v.png
+140,mixed,2001,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\132_mixed_01_clean.png,degraded\140_mixed_01_gblur_heavy.png
+141,mixed,2001,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\132_mixed_01_clean.png,degraded\141_mixed_01_gblur_mild.png
+142,mixed,2001,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\132_mixed_01_clean.png,degraded\142_mixed_01_combined_dark_blur.png
+143,mixed,2001,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\132_mixed_01_clean.png,degraded\143_mixed_01_combined_moderate.png
+144,mixed,2002,dark,dark_severe,{'factor': 0.1},originals\144_mixed_02_clean.png,degraded\144_mixed_02_dark_severe.png
+145,mixed,2002,dark,dark_heavy,{'factor': 0.15},originals\144_mixed_02_clean.png,degraded\145_mixed_02_dark_heavy.png
+146,mixed,2002,dark,dark_moderate,{'factor': 0.25},originals\144_mixed_02_clean.png,degraded\146_mixed_02_dark_moderate.png
+147,mixed,2002,dark,dark_mild,{'factor': 0.4},originals\144_mixed_02_clean.png,degraded\147_mixed_02_dark_mild.png
+148,mixed,2002,motion_blur,mblur_severe_h,"{'kernel_size': 25, 'angle': 0}",originals\144_mixed_02_clean.png,degraded\148_mixed_02_mblur_severe_h.png
+149,mixed,2002,motion_blur,mblur_moderate_h,"{'kernel_size': 15, 'angle': 0}",originals\144_mixed_02_clean.png,degraded\149_mixed_02_mblur_moderate_h.png
+150,mixed,2002,motion_blur,mblur_moderate_d,"{'kernel_size': 15, 'angle': 45}",originals\144_mixed_02_clean.png,degraded\150_mixed_02_mblur_moderate_d.png
+151,mixed,2002,motion_blur,mblur_mild_v,"{'kernel_size': 11, 'angle': 90}",originals\144_mixed_02_clean.png,degraded\151_mixed_02_mblur_mild_v.png
+152,mixed,2002,gaussian_blur,gblur_heavy,"{'kernel_size': (21, 21)}",originals\144_mixed_02_clean.png,degraded\152_mixed_02_gblur_heavy.png
+153,mixed,2002,gaussian_blur,gblur_mild,"{'kernel_size': (11, 11)}",originals\144_mixed_02_clean.png,degraded\153_mixed_02_gblur_mild.png
+154,mixed,2002,combined,combined_dark_blur,"{'dark_factor': 0.15, 'blur_kernel': 15, 'blur_angle': 0}",originals\144_mixed_02_clean.png,degraded\154_mixed_02_combined_dark_blur.png
+155,mixed,2002,combined,combined_moderate,"{'dark_factor': 0.25, 'blur_kernel': 11, 'blur_angle': 45}",originals\144_mixed_02_clean.png,degraded\155_mixed_02_combined_moderate.png

@@ -6,3 +6,7 @@ torch
 easyocr
 scipy
 kornia
+scikit-learn
+scikit-image
+pyspellchecker
+Pillow
